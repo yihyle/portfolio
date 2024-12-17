@@ -1,0 +1,15 @@
+.background-under {
+    width: calc(100% - 250px);
+    height: 200vh;
+    margin-left: 250px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-under img {
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}

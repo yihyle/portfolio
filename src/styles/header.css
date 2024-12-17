@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+}
+
+.header-container-header {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-image: linear-gradient(to bottom, #0f0f0f, #373737);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    align-items: center;
+    z-index: 99999;
+}
+
+.box-container-header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.underimg {
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+
+.under-arrow-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.box-container-header:hover .under-arrow-header {
+    width: 0;
+    height: 0;
+}
+
+.box-container-header:hover .underimg {
+    width: 0;
+    height: 0;
+}
+
+.box-container-header:hover {
+    height: 100px;
+}
+
+.login-box-header {
+    width: 80%;
+    height: 0%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    transition: 0.3s;
+}
+
+.box-container-header:hover .login-box-header {
+    width: 80%;
+    height: 55%;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+}
+
+.instagram-header {
+    width: 0px;
+    height: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.instagram-header:hover {
+    scale: 1.1;
+}
+
+.discord-header {
+    width: 0px;
+    height: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.discord-header:hover {
+    scale: 1.1;
+}
+
+.github-header {
+    width: 0px;
+    height: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.github-header:hover {
+    scale: 1.1;
+}
+
+.box-container-header:hover .instagram-header {
+    width: 30px;
+    height: 30px;
+}
+
+.box-container-header:hover .discord-header {
+    width: 30px;
+    height: 30px;
+}
+
+.box-container-header:hover .github-header {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-container-header {
+    width: 100%;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    gap: 17px;
+    margin-top: 5px;
+}
+
+.menu-box-header {
+    width: 88%;
+    height: 65px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.circle-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    background-color: #3E3E3E;
+    margin: 0 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.circle-header img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.title-header {
+    width: 110px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title-header p {
+    font-family: "Livvic", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.right-header {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-box-header:hover .right-header {
+    transform: translateX(6px);
+}
+
+.skill-header {
+    width: 23px !important;
+    height: 23px !important;
+    cursor: pointer;
+}
+
+.project-header {
+    margin-top: 6px !important;
+    margin-right: 1px;
+}
+
+.about-header {
+    margin-top: 3px !important;
+}
+
+.writeimg {
+    margin-top: 2px;
+    margin-right: 1px;
+}
